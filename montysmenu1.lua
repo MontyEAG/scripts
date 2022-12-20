@@ -10,9 +10,7 @@ SectionWalk:NewSlider("Walk Speed", "Tylers so gay lol", 500, 16, function(s) --
     end)
 Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
 end)
-
-local FF2 = Window:NewTab("F.F.2")
-local SFF2 = FF2:NewSection("MAIN")
-SFF2:NewButton("LOAD FF2 SCRIPT", "Ball Catch Assist", function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/SlimLegoHacks/Scripts/main/FootballFusion.lua')))()
+local SectionAfk = Main:NewSection("ANTI AFK")
+SectionAfk:NewButton("LAUNCH AFK SCRIPT", ".", function()
+    print("Clicked")
 end)
