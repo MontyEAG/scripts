@@ -12,6 +12,7 @@ Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
 end)
 SectionWalk:NewButton("FAST", "Sets Walk Speed to 120", function()
         s = 120
+end)
 local SectionAfk = Main:NewSection("ANTI AFK")
 SectionAfk:NewButton("LAUNCH AFK SCRIPT", ".", function()
     print("Clicked")
