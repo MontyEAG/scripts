@@ -1,1 +1,1 @@
-game.Players.LocalPlayer:Kick(Nah You Really thought you was finna use my menu boi. Screw you tyler/triston. Ur gay.)
+game.Players.LocalPlayer:Kick("WARNING. DO NOT EXPLOIT IN OUR GAME. YOUR IP COMES BACK TO THE FOLLOWING ADDRESS: 507 STEPHEN F AUSTIN DR, CONROE, TX 77302")
